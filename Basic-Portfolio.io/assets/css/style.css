@@ -121,8 +121,18 @@ p{
     border-color: #399077;
     position: relative;
     display:inline;
-    
-    
+}
+
+.portname{
+    z-index: 2;
+    background-color: #399077;
+    width:34%;
+    padding-left:10px;
+    position: absolute;
+   float:left;
+    color:white;
+    font-size: 2em;
+    clear:both;
 }
 
 .size{
@@ -179,19 +189,5 @@ input[type=text], textarea {
     font-family:Arial;
     font-size: 2.0em;
 }
-.portname{
-    z-index: 2;
-    background-color: #399077;
-    width:40%;
-    position: absolute;
-    display:inline;
-    color:white;
-    font-size: 2em;
-    top:20px;
-}
 
-#portfolio{
-    position:relative;
-    height:100%;
-}
 
